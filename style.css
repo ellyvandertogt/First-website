@@ -115,10 +115,15 @@ figure .figcaption1 { /*???????????*/
     position: relative;
     top: 110px;
     left: 225px;
-    font-size: bold;
-
-    
+    font-size: bold;  
 } 
+
+.about-me {
+    position: relative;
+    left: 750px;
+    color: rgb(80, 77, 77);
+    top: 50px;
+}
 
 footer .copyright1 {
     position: relative;
