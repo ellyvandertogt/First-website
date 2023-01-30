@@ -61,7 +61,20 @@ div .class3 {
     position: relative;
     top: 85px;
 }
-
+.image {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    list-style-type: none;
+    position: relative;
+    top: 120px;
+}
+.image img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    
+}
 /* img {
     max-width: 100%;
     max-width: 100%;
@@ -104,14 +117,14 @@ footer .copyright {
 }
 /* ABOUT */
 
-figure .photo2 {
+/* figure .photo2 {
     border-radius: 30px;
     position: relative;
     top: 100px;
     left: 20px;
 }
 
-figure .figcaption1 { /*???????????*/
+figure .figcaption1 { 
     position: relative;
     top: 110px;
     left: 225px;
@@ -123,10 +136,13 @@ figure .figcaption1 { /*???????????*/
     left: 750px;
     color: rgb(80, 77, 77);
     top: 50px;
-}
+} */
 
 footer .copyright1 {
     position: relative;
     text-align: center;
     top: 200px;
+}
+.container1 {
+    display: flex;
 }
